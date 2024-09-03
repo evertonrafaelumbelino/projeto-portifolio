@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon_io/favicon-16x16.png" type="image/x-icon">
+    <title>Portifólio</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=SUSE:wght@100..800&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        :root{
+            --fonte-padrao: 'SUSE';
+            --fonte-destaque: 'New Amsterdam';
+        }
+
+        body{
+            background-color: lightgray;
+        }
+
+        header{
+            background-color: gray;
+        }
+
+        header h1{
+            padding: 10px;
+        }
+
+        main{
+            background-color: white;
+            max-width: 800px;
+            margin: auto;
+            margin-top: 20px;
+            padding: 5px 0px 10px 10px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.29);
+        }
+
+        footer{
+            background-color: gray;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        footer p{
+            text-align: center;
+            padding: 10px;
+        }
+
+        p > a{
+            background-color: gray;
+            color: white;
+            padding: 5px;
+            text-decoration: none;
+            font-family: var(--fonte-padrao);
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        p > a:hover{
+            text-decoration: underline;
+        }
+
+        p{
+            font-family: var(--fonte-padrao), sans-serif;
+            text-indent: 20px;
+            text-align: justify;
+            padding: 5px 5px 10px 10px;
+        }
+
+        h1, h2, h3{
+            font-family: var(--fonte-destaque), sans-serif;
+            font-weight: 400;
+        }
+
+        h2{
+            margin: 10px 0px 10px 0px;
+        }
+
+        h3{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        img{
+            padding-left: 20px;
+        }
+
+        img#html5{
+            width: 64px;
+            height: 64px;
+        }
+
+        img#css3{
+            width: 64px;
+            height: 64px;
+        }
+
+        img#github{
+            width: 40px;
+            height: 40px;
+        }
+
+        img#facebook{
+            width: 40px;
+            height: 40px;
+        }
+
+        img#instagram{
+            width: 40px;
+            height: 40px;
+        }
+
+        div{
+            margin: 12px 0px 20px 0px;
+        }
+
+        div > a{
+            background-color: grey;
+            color: white;
+            padding: 5px 10px 5px 10px;
+            margin-left: 30px;
+            text-decoration: none;
+            font-family: var(--fonte-padrao);
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        div > a:hover{
+            text-decoration: underline;
+        }
+
+        a#projeto{
+            background-color: lightgray;
+            color: black;
+        }
+
+        strong > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+
+        strong > a:hover{
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu Portifólio</h1>
+    </header>
+
+    <main>
+        <h2>Sobre mim</h2>
+
+        <p>Meu nome é Everton Rafael, sou um estudante de programação desde 2024 e atualmente estou estudando tecnologias HTML5, CSS3, Git e Github. Meu primeiro contato com programação foi em 2023, mas só me aprofundei mais no assunto em 2024.
+        </p>
+
+        <p>
+            <a href="mais-sobre-mim.html">Mais sobre mim</a>
+        </p>
+
+        <h2>Tecnologias</h2>
+
+        <p>Atualmente não sou experiente em nenhuma tecnologia, mas estou estudando sobre HTML5 e CSS3</p>
+
+        <img src="imagens/logo-html5.png" alt="HTML5" id="html5"> 
+        <img src="imagens/logo-css3.png" alt="CSS3" id="css3">
+
+        <h2>Projetos</h2>
+
+        <h3>Projeto do Android</h3>
+
+        <p>Projeto criado para explicar como surgiu o mascote da Android e outras características,  feito em um curso de HTML5 e CSS3 do <strong><a href="https://www.cursoemvideo.com/" target="_blank">Cursoemvideo</a></strong></p>
+
+        <div>
+            <a href="https://evertonrafaelumbelino.github.io/projeto-android/" target="_blank" id="projeto">  Projeto  </a>
+            
+            <a href="https://github.com/evertonrafaelumbelino/projeto-android" target="_blank">Repositório</a>
+        </div>
+
+        <h3>Projeto Cordel Moderno</h3>
+
+        <p>Projeto feito para divulgar o cordel feito por <strong><a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a></strong>, feito em um curso de HTML5 e CSS3 do <strong><a href="https://www.cursoemvideo.com/" target="_blank">Cursoemvideo</a></strong></p>
+
+        <div>
+            <a href="https://evertonrafaelumbelino.github.io/projeto-cordel/" target="_blank" id="projeto">Projeto</a>
+
+            <a href="https://github.com/evertonrafaelumbelino/projeto-cordel" target="_blank">Repositório</a>
+        </div>
+
+        <h2>Contatos</h2>
+
+        <a href="https://github.com/evertonrafaelumbelino" target="_blank"><img src="imagens/logo-github.png" alt="github" id="github"></a>
+
+        <a href="https://www.facebook.com/profile.php?id=100091361526110" target="_blank"><img src="imagens/logo-facebook.png" alt="facebook" id="facebook"></a>
+
+        <a href="https://www.instagram.com/evertonrafaelumbelino/?next=%2F&hl=en" target="_blank"><img src="imagens/logo-instagram.jpg" alt="instagram" id="instagram"></a>
+    </main>
+
+    <footer>
+        <p>Site criado por <strong>Everton Rafael</strong></p>
+    </footer>
+</body>
+</html>
