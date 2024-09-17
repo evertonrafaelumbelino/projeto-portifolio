@@ -157,6 +157,40 @@
         strong > a:hover{
             text-decoration: underline;
         }
+
+        a.aqui{
+            background-color: white;
+            color: rgb(100, 100, 100);
+            text-decoration: underline;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a.aqui:hover{
+            color: white;
+            background-color: gray;
+            text-decoration: none;
+            padding: 5px 10px 5px 10px;
+            transition: 0.5s;
+        }
+
+        div.container{
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        div.container iframe{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 98%;
+            height: 100%;
+            border: 1px solid black;
+        }
+        
     </style>
 
 </head>
@@ -186,6 +220,10 @@
 
         <h3>Projeto do Android</h3>
 
+        <p>Clique <a href="https://evertonrafaelumbelino.github.io/projeto-android/" target="android" class="aqui">aqui</a> para carregar o projeto agora</p>
+
+        <div class="container"><iframe srcdoc="<p>Clique no link acima ou <a href='https://evertonrafaelumbelino.github.io/projeto-android/'><strong>aqui</strong></a> para carregar o projeto agora</p>" name="android"></iframe></div>
+
         <p>Projeto criado para explicar como surgiu o mascote da Android e algumas outras características sobre esse mascote, feito em um curso de HTML5 e CSS3 do <strong><a href="https://www.cursoemvideo.com/" target="_blank">Cursoemvideo</a></strong></p>
 
         <div>
@@ -195,6 +233,10 @@
         </div>
 
         <h3>Projeto Cordel Moderno</h3>
+
+        <p>Clique <a href="https://evertonrafaelumbelino.github.io/projeto-cordel/" class="aqui" target="cordel">aqui</a> para carregar o projeto agora</p>
+
+        <div class="container"><iframe srcdoc="<p>Clique no link acima ou <a href='https://evertonrafaelumbelino.github.io/projeto-cordel/'>aqui</a> para carregar o projeto agora</p>" name="cordel"></iframe></div>
 
         <p>Projeto feito para divulgar o tipo de texto cordel feito por <strong><a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a></strong>,      projeto criado em um curso de HTML5 e CSS3 do <strong><a href="https://www.cursoemvideo.com/" target="_blank">Cursoemvideo</a></strong></p>
 
